@@ -1,2 +1,68 @@
-# Ignora il file .env
+# File di ambiente
 .env
+*.env
+
+# Cartella virtual environment
+venv/
+venv310/
+.venv/
+
+# File temporanei di sistema
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache pip
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Cache editor (VSCode, PyCharm, ecc.)
+.vscode/
+.idea/
+*.iml
+
+# File log, output e di test
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Output di test
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache/
+.pytest_cache/
+.coverage.*
+
+# Dati e modelli scaricati
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.npz
+*.h5
+*.onnx
+
+# Huggingface cache
+~/.cache/huggingface/
+~/.huggingface/
+
+# Output audio o video
+*.wav
+*.mp3
+*.mp4
+*.webm
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# Traduzioni o output generati
+translated_output.txt
+transcription_output.txt
